@@ -1,0 +1,12 @@
+Task 1: Determine 10 Test Cases for https://jupitor.cloud.planittesting.com
+
+1. Security: We can try to test any and all inputs for any type of code injection like cross site scripting (XSS) using a local proxy, XSS by just manipulating the text inputs for example inserting an image and attaching an alt statement to it.
+2. Checkout: We can try to ping the email server to ensure that it’s up and that it’s actually a real server rather then someone just inputting “a.b.com”
+3. Contact: We can replace the word “Forename” with First name because that is a more commonly used term making it easier for the user to read and input their details.
+4. Cart: We can round up so the price is only 2 decimal points to make the price more legible for the user
+5. Javascript: We can test the javascript to check if it is vulnerable to any Cyber attacks this can be achieved by going through the code with a security checker to ensure top notch security for this e commerce website
+6. Performance: Regular performance testing on a whole range of hardware is something that should happen.
+7. Usability: Regular usability testing goes a long way to ensure the users aren’t being frustrated with using the website
+8. Privacy: Ensuring all cookies get deleted is a must for user privacy and security or better yet, no cookies at all.
+9. Security(cart): Testing the cart for any type of forgery is a must for all e commerce websites, especially cross site request forgery (CSRF), SQL Injection (SQLI) and cross site scripting (XSS) as the cart is most likely to be the target to multiple attacks.
+10. Cart: Ensuring the items are not stored in the session after they have been removed from the cart is a must when dealing with e commerce websites.
